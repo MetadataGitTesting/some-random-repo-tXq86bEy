@@ -25,6 +25,17 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: jasper.fahey@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-04-04 10:57:22'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Rueben_Schneider:
     name: Rueben_Schneider
     description: ''
@@ -81,7 +92,12 @@ workflows:
       outputs: []
     dependencies: {}
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Moshe_Medhurst:
+    name: Moshe_Medhurst
+    description: Really solid info
+    createdAt: '2022-04-04 10:57:22'
+    author: jasper.fahey@gmail.com
 libraries: []
 dependencies: '{}'
 template: '{}'
